@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trix Art | Original Art & Botanical Candles</title>
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --text: #222222;
+      --accent: #5a6b5c;
+      --font-heading: 'Georgia', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    h1 {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      margin: 0 0 10px 0;
+      text-transform: uppercase;
+    }
+
+    p.subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 22px;
+      margin: 5px;
+      border: 1px solid var(--text);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: var(--text);
+      color: var(--bg);
+    }
+
+    .btn-primary {
+      background-color: var(--text);
+      color: var(--bg);
+    }
+
+    .btn-primary:hover {
+      background-color: #444;
+    }
+
+    container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+      display: block;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-family: var(--font-heading);
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      font-size: 1.5rem;
+    }
+
+    /* Minimalist Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #eee;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #eee;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    footer a {
+      color: var(--text);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Trix Art</h1>
+    <p class="subtitle">Original Artwork & Botanical Candles</p>
+    <nav>
+      <a href="https://www.etsy.com/shop/TrixArt" target="_blank" class="btn btn-primary">Shop on Etsy</a>
+      <a href="https://instagram.com/trix.artist" target="_blank" class="btn">Instagram</a>
+    </nav>
+  </header>
+
+  <container>
+    <!-- Original Art Section -->
+    <section id="art">
+      <h2>Original Paintings</h2>
+      <p>Watercolors, small acrylics, and original botanical studies.</p>
+      <div class="grid">
+        <div class="card">
+          <img src="images/painting1.jpg" alt="Original Artwork">
+          <h3>Amanita Muscaria</h3>
+          <p>Original Watercolor</p>
+        </div>
+        <!-- Add more artwork cards as needed -->
+      </div>
+    </section>
+
+    <!-- Lit Burn Candles Sub-Brand -->
+    <section id="candles">
+      <h2>Lit Burn Candles</h2>
+      <p>Hand-poured botanical candles, crafted with natural wax and organic dried elements.</p>
+      <div class="grid">
+        <div class="card">
+          <img src="images/candle1.jpg" alt="Lit Burn Candle">
+          <h3>Botanical Soy Candle</h3>
+          <p>Handmade by Lit Burn</p>
+        </div>
+      </div>
+    </section>
+  </container>
+
+  <footer>
+    <p>Based in Berlin • Contact: <a href="mailto:contact@trixartist.com">contact@trixartist.com</a></p>
+    <p>© Trix Art</p>
+  </footer>
+
+</body>
+</html>
